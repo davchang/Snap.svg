@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Snap svg example</title>
+	<style>
+		body {
+			background: #333
+		};
+		.st0 {
+			fill: blue;
+			stroke: #C83600;
+		}
+	</style>
+  <script src="dist/snap.svg.js"></script>
+</head>
+<body>
+
+  <svg width="0" height="0">
+      <pattern id="pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10" viewBox="0 0 10 10">
+          <path d="M-5,0,10,15M0-5,15,10" stroke="white" stroke-width="5"/>
+      </pattern>
+  </svg>
+  <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg"></svg>
+
+	<script src="dist/index.js"></script>
+</body>
+</html>
